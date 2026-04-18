@@ -1,0 +1,5 @@
+Possibilidades de Tratamento
+label encoder + onehotencoder + escalonamento
+label encoder
+label encoder + onehotencoder
+label encoder + escalonamento

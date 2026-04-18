@@ -1,0 +1,45 @@
+census
+__________________________
+0.7559 - base line classifier (zerofit)
+
+0.4767 - naive bayes (label encoder + onehotenconder + escalonamento)
+0.7952 - naive bayes (label encoder)
+0.7950 - naive bayes (label encoder + onehotencoder)
+0.8057 - naive bayes (label encoder + escalonamento)
+
+0.8102 - árvore de decisão (label encoder + onehotenconder + escalonamento)
+0.8128 - árvore de decisão (label encoder)
+0.8102 - árvore de decisão (label encoder + onehotencoder)
+0.8128 - árvore de decisão (label encoder + escalonamento)
+
+0.8476 - random forest n_estimators=40 (label encoder + onehotenconder + escalonamento)
+0.8481 - random forest n_estimators=40 (label encoder)
+0.8489 - random forest n_estimators=40 (label encoder + onehotencoder)
+0.8479 - random forest n_estimators=40 (label encoder + escalonamento)
+
+0.7880 - CN2 (sem pré-processamento)
+
+0.8223 - KNN 5 (label encoder + onehotenconder + escalonamento)
+0.7746 - KNN 5 (label encoder)
+0.7760 - KNN 5 (label encoder + onehotencoder)
+0.8219 - KNN 5 (label encoder + escalonamento)
+
+0.8495 - Regressão logística (label encoder + onehotenconder + escalonamento)
+0.7909 - Regressão logística (label encoder)
+0.7954 - Regressão logística (label encoder + onehotencoder)
+0.8184 - Regressão logística (label encoder + escalonamento)
+
+0.8507 - SVM Linear (label encoder + onehotenconder + escalonamento)
+? - SVM Linear (label encoder)
+? - SVM Linear (label encoder + onehotencoder)
+0.8507 - SVM Linear (label encoder + escalonamento)
+
+0.8352 - Rede Neural (label encoder + onehotenconder + escalonamento)
+0.2440 - Rede Neural (label encoder)
+0.7881 - Rede Neural (label encoder + onehotencoder)
+0.8481 - Red Neural (label encoder + escalonamento)
+
+0.8178 - Rede neural keras (label encoder + onehotencoder + escalonamento)
+0.7559 - Rede neural keras (label encoder)
+0.2440 - Rede neural keras (label encoder + onehotencoder)
+0.8511 - Rede neural keras (label encoder + escalonamento)

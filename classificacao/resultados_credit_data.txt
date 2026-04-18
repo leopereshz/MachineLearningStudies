@@ -1,0 +1,12 @@
+credit data
+___________________________
+0.8720 - base line classifier
+0.9379 - naive bayes (inconsistentes + faltantes + escalonamento)
+0.9819 - árvore de decisão (inconsistentes + faltantes + escalonamento)
+0.9839 - random forest n_estimators =40 (inconsistentes +faltantes +escalonamento)
+0.9520 - CN2 (sem pré-processamento)
+0.9859 - KNN (inconsistentes + faltantes + escalonamento)
+0.9439 - regressão logística (inconsistentes + faltantes + escalonamento)
+0.9879 - SVM kernel rbf cost 2 (inconsistentes + faltantes + escalonamento)
+0.9960 - rede neural (inconsistentes + faltantes + escalonamento)
+0.9480 - Rede Neural Keras (inconsistentes + faltantes + escalonamento)
