@@ -1,0 +1,23 @@
+@relation jogar_futebol
+
+@attribute tempo {ensolarado, nublado, chuvoso}
+@attribute temperatura {quente, moderada, agradavel, frio, gelado}
+@attribute umidade {alta, normal, baixa}
+@attribute vento {forte, fraco}
+@attribute jogar {sim, nao}
+
+@data
+ensolarado, quente, alta, fraco, nao
+ensolarado, quente, alta, forte, nao
+nublado, quente, alta, fraco, sim
+chuvoso, moderada, alta, fraco, sim
+chuvoso, agradavel, normal, fraco, sim
+chuvoso, agradavel, normal, forte, nao
+nublado, agradavel, normal, forte, sim
+ensolarado, moderada, alta, fraco, nao
+ensolarado, agradavel, normal, fraco, sim
+chuvoso, moderada, normal, fraco, sim
+ensolarado, agradavel, normal, fraco, sim
+nublado, moderada, alta, fraco, sim
+nublado, quente, normal, fraco, sim
+chuvoso, moderada, alta, forte, nao
